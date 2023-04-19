@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:text="ten dang nhap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:hint="tk"
+        android:id="@+id/edtusr1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="matkhau"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:hint="mk"
+        android:id="@+id/edtpw1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <EditText
+        android:hint="email"
+        android:id="@+id/edtemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:text="quyen"
+        android:layout_height="wrap_content"/>
+    <Spinner
+        android:layout_width="match_parent"
+        android:id="@+id/sp"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btndangky"
+            android:layout_width="wrap_content"
+            android:text="dang ky"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btndangnhap"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="di toi dang nhap"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</LinearLayout>
